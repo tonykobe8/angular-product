@@ -7,11 +7,11 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { RegisterComponent } from './register/register.component';
 import { ProductListComponent } from './product-list/product-list.component';
-import { ProductsComponent } from './products/products.component';
+
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,AppRoutingModule,MatButtonModule ],
-  declarations: [ AppComponent, HelloComponent, RegisterComponent, ProductListComponent, ProductsComponent ],
+  declarations: [ AppComponent, HelloComponent, RegisterComponent, ProductListComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
