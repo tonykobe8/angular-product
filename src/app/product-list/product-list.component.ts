@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
-product = [{
+products = [{
   Name:'Portable monitor',Price:'R2,699',Description:'Asus MB168B 15.6',img:''
 }];
   constructor() { }
